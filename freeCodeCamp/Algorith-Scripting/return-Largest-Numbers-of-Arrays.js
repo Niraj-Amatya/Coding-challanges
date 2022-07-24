@@ -15,6 +15,7 @@ function largestOfFour(arr) {
   const max = Math.max(...result);
   const index = result.indexOf(max);
   console.log(arr[index]);
+  return arr[index];
 }
 
 largestOfFour([
